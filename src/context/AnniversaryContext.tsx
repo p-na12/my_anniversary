@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import type { PropsWithChildren } from "react";
-import { mediaStorage } from "../utils/IndexedDb";
+import { mediaStorage } from "../utils/indexedDb";
 import type { LoveReason, MediaItem, MediaKind, MediaView, SiteData, SpecialDate, StoryMemory } from "../types";
 
 const today = new Date();
