@@ -4,5 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/my_anniversary/",
+  base: process.env.VERCEL ? "/" : "/my_anniversary/",
 });
